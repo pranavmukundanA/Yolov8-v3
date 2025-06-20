@@ -47,24 +47,22 @@ git clone https://github.com/pranavmukundanA/Yolov8-v3.git
 cd Yolov8-v3
 
 2.Install YOLOv8:
-
 pip install ultralytics
 
 3.Train your model:
-
 yolo detect train data=data.yaml model=yolov8n.pt epochs=50 imgsz=640
 
 4.Run Inference:
-
 yolo detect predict model=weights/best.pt source=your_video.mp4
 
 5.Results:
+
 | Metric    | Value |
 | --------- | ----- |
-| Precision | xx%   |
-| Recall    | xx%   |
-| mAP\@0.5  | xx%   |
-| Avg IoU   | xx%   |
+| Precision | 61.54% |
+| Recall    | 93.85% |
+| mAP\@0.5  | 64.13% |
+| Avg IoU   | 55.16% |
 
 6.Tech Stack
 Python
