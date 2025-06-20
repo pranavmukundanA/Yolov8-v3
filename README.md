@@ -57,8 +57,8 @@ yolo detect predict model=weights/best.pt source=your_video.mp4
 
 5.Results:
 
-| Metric    | Value |
-| --------- | ----- |
+| Metric    | Value  |
+| --------- | -----  |
 | Precision | 61.54% |
 | Recall    | 93.85% |
 | mAP\@0.5  | 64.13% |
